@@ -28,3 +28,7 @@ variable "private_subnet_cidr_block" {
 variable "database_subnet_cidr_block" {
   default = ["10.0.21.0/24","10.0.22.0/24"]
 }
+
+variable "is_perring_requried" {
+  default = true
+}
